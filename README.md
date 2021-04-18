@@ -21,13 +21,13 @@ It's based on https://refactoring.guru/pt-br/design-patterns/catalog
 **Command** | *MAX* | It turns a request into a independent object that have all the information about this request. This transformation allows you to parameterize methods with differents requests, delay or put the request execution in a line, and suport operations that may not be done. | *NO* |
 **Strategy** | *MAX* | It allows you to define a algorithm family and place them into separeted classes and then make their objects interchangeable  | *NO* |
 **Iterator** | *MAX* | It allows you to pass through elements in a collection without show the strucutural representation of it (lists, stacks, trees, etc) | *NO* |
-**Observer** | *MAX* |  | *NO* |
-**Mediator** | *MED* |  | *NO* |
-**State** | *MED* |  | *NO* | v'
-**Template Method** | *MED* |  | *NO* |
+**Observer** | *MAX* | It allows you to define a subscripition mechanism to notify multiple events when they happen to a object that is being observed  | *NO* |
+**Mediator** | *MED* | It allows you to reduce the caothics dependencies between objects. The pattern restricts the direct comunication between the objects and forces them to colaborate through the mediator object | *NO* |
+**State** | *MED* | It allows an object to change its behavior when its internal state changes. Like it have changed its class | *NO* | v'
+**Template Method** | *MED* | Defines a skeleton of an algorithm in the superclass but it let the subclasses to overwrite specifics steps of the algorithm without changing it structure | *NO* |
 **Chain of Responsibility** | *MIN* | It allows you to pass requisitions through a handlers chain. When it recives a request, each handle will decide if it process the request or pass it to the next handler in the chain | *NO* |
-**Memento** | *MIN* |  | *NO* |
-**Visitor** | *MIN* |  | *NO* |
+**Memento** | *MIN* | It allows you to save and restore a previous state of an object without reveailing the implementation details  | *NO* |
+**Visitor** | *MIN* | It allows you to split algorithms of the objects which they operate on | *NO* |
 
 ### Structural 
 
